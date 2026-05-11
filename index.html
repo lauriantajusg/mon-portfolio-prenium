@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurian Tajus GOMA | Portfolio Ingénieur Icam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">L.GOMA<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Profil</a></li>
+                <li><a href="#experience">Parcours</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projets">Numérique</a></li>
+                <li><a href="mailto:lauriantajusg@gmail.com" class="nav-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <span class="badge">Admis à l'Icam Strasbourg (2026)</span>
+                    <h1>Laurian Tajus <span>GOMA</span></h1>
+                    <p class="hero-desc">Expert en Maintenance Industrielle & Systèmes Numériques. Un profil hybride entre la mécanique de précision et l'administration réseau.</p>
+                    <div class="hero-actions">
+                        <a href="CV_Laurian_Goma.pdf" class="btn-main" target="_blank"><i class="fas fa-file-download"></i> Télécharger le CV</a>
+                        <a href="#experience" class="btn-sub">Voir mon parcours</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="img-frame">
+                        <img src="photo-profil.jpg" alt="Laurian Goma" onerror="this.src='https://via.placeholder.com/300x350/161b22/58a6ff?text=L.GOMA'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="formation" class="section">
+            <h2 class="section-title">Formation Académique</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="time-dot"></div>
+                    <div class="time-content">
+                        <h3>Cycle Ingénieur (Systèmes Numériques)</h3>
+                        <p class="org">Icam Strasbourg</p>
+                        <span class="date">Prévu 2026 - 2029</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time-dot"></div>
+                    <div class="time-content">
+                        <h3>BTS SIO option SISR (Réseaux)</h3>
+                        <p class="org">Institut f2i - Vincennes</p>
+                        <span class="date">En cours | 2025 - 2026</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time-dot"></div>
+                    <div class="time-content">
+                        <h3>Licence en Maintenance Industrielle</h3>
+                        <p class="org">UCAC-ICAM</p>
+                        <span class="date">Bac +3 Obtenu</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title">Expériences du Terrain</h2>
+            <div class="exp-grid">
+                <div class="exp-card highlight">
+                    <div class="exp-header">
+                        <i class="fas fa-oil-well"></i>
+                        <div>
+                            <h3>CORAF (Raffinerie)</h3>
+                            <p>Maintenance Mécanique</p>
+                        </div>
+                    </div>
+                    <p>Interventions critiques en milieu industriel lourd. Maintenance curative sur pompes centrifuges, moteurs asynchrones et compresseurs.</p>
+                    <div class="exp-tags">
+                        <span>Mécanique</span><span>ATEX</span><span>Curatif</span>
+                    </div>
+                </div>
+                <div class="exp-card">
+                    <div class="exp-header">
+                        <i class="fas fa-industry"></i>
+                        <div>
+                            <h3>SARIS Congo</h3>
+                            <p>Opérateur de Production</p>
+                        </div>
+                    </div>
+                    <p>Gestion du suivi des processus industriels automatisés. Surveillance de la chaîne de production et reporting technique.</p>
+                    <div class="exp-tags">
+                        <span>Automatisme</span><span>Pilotage</span><span>Suivi</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section dark-bg">
+            <h2 class="section-title">Certifications & Hard Skills</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <i class="fab fa-cisco"></i>
+                    <h3>Cisco CCNA</h3>
+                    <p>Administration réseaux & Commutation</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Cybersecurity</h3>
+                    <p>Intro à la Cybersécurité (Cisco)</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Administration</h3>
+                    <p>Windows Server & Linux (f2i)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="section">
+            <h2 class="section-title">Projets Systèmes Numériques</h2>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Infrastructure NAS & RAID 1</h3>
+                    <p>Mise en place d'un serveur de stockage haute disponibilité sous TrueNAS. Gestion des droits d'accès et sécurité des données.</p>
+                </div>
+                <div class="project-content">
+                    <h3>Développement Web Automobile</h3>
+                    <p>Conception d'une plateforme PHP/MySQL pour la gestion de base de données relationnelle.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>© 2026 Laurian Tajus GOMA | Candidat Ingénieur Icam</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:lauriantajusg@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
